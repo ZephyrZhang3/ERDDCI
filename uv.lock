@@ -362,6 +362,7 @@ dependencies = [
 dev = [
     { name = "ipywidgets" },
     { name = "jupyterlab" },
+    { name = "notebook" },
 ]
 
 [package.metadata]
@@ -379,6 +380,7 @@ requires-dist = [
 dev = [
     { name = "ipywidgets", specifier = ">=8.1.6" },
     { name = "jupyterlab", specifier = ">=4.4.0" },
+    { name = "notebook", specifier = ">=7.4.0" },
 ]
 
 [[package]]
@@ -994,6 +996,22 @@ source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/fd/1d/06475e1cd5264c0b870ea2cc6fdb3e37177c1e565c43f56ff17a10e3937f/networkx-3.4.2.tar.gz", hash = "sha256:307c3669428c5362aab27c8a1260aa8f47c4e91d3891f48be0141738d8d053e1", size = 2151368 }
 wheels = [
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl", hash = "sha256:df5d4365b724cf81b8c6a7312509d0c22386097011ad1abe274afd5e9d3bbc5f", size = 1723263 },
+]
+
+[[package]]
+name = "notebook"
+version = "7.4.0"
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
+dependencies = [
+    { name = "jupyter-server" },
+    { name = "jupyterlab" },
+    { name = "jupyterlab-server" },
+    { name = "notebook-shim" },
+    { name = "tornado" },
+]
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/33/7c/2dd051638502268da7a6784ae18bb40c2d7fcbea3581bf14078a168f9960/notebook-7.4.0.tar.gz", hash = "sha256:581d88f83709d90ce738dfd1d759892b96e3cbbc9c4a989912ed6c6a08f0d3e8", size = 13880491 }
+wheels = [
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/13/d1/a8897aa74ac54409c4679e96e6d8b31d7187b2ce31596ae3ee95bee20e87/notebook-7.4.0-py3-none-any.whl", hash = "sha256:005fd21f4db6093a7b739b17df5fe60597811adb07e8255f458db4035d208e3a", size = 14281255 },
 ]
 
 [[package]]
