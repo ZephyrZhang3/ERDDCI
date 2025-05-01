@@ -7,3 +7,5 @@ images_bak
 example_images
 erddci.egg-info
 ReconDataset
+DegradeDataset
+*Copy*.ipynb
